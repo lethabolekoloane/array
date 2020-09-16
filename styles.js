@@ -439,7 +439,7 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Lethabo LEKOLOANE\Desktop\work\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\Lethabo LEKOLOANE\Desktop\indiv\src\styles.css */"./src/styles.css");
 
 
 /***/ })
