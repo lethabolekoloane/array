@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
-/*!*********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./src/styles.css ***!
-  \*********************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles.scss":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--14-1!./node_modules/postcss-loader/src??embedded!./node_modules/resolve-url-loader??ref--14-3!./node_modules/sass-loader/dist/cjs.js??ref--14-4!./src/styles.scss ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", "",{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,8EAA8E","file":"styles.css","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n"]}]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */", "",{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,8EAAA","file":"styles.scss","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n"]}]);
 // Exports
 module.exports = exports;
 
@@ -403,15 +403,15 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./src/styles.css":
-/*!************************!*\
-  !*** ./src/styles.css ***!
-  \************************/
+/***/ "./src/styles.scss":
+/*!*************************!*\
+  !*** ./src/styles.scss ***!
+  \*************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--13-1!../node_modules/postcss-loader/src??embedded!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--14-1!../node_modules/postcss-loader/src??embedded!../node_modules/resolve-url-loader??ref--14-3!../node_modules/sass-loader/dist/cjs.js??ref--14-4!./styles.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles.scss");
 
             content = content.__esModule ? content.default : content;
 
@@ -433,13 +433,13 @@ module.exports = content.locals || {};
 /***/ }),
 
 /***/ 2:
-/*!******************************!*\
-  !*** multi ./src/styles.css ***!
-  \******************************/
+/*!*******************************!*\
+  !*** multi ./src/styles.scss ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Lethabo LEKOLOANE\Desktop\indiv\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\Lethabo LEKOLOANE\Desktop\mlab1\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
